@@ -2,8 +2,6 @@
 
 知名游资的操作思路、交易心法和实战技能的持续沉淀。
 
-![README image](assets/readme.jpg)
-
 ---
 
 ## 📂 目录结构
@@ -90,3 +88,7 @@ dalh/
 - [ ] 小鳄鱼 — 趋势与低吸
 - [ ] 方新侠 — 大资金运作模式
 - [ ] 涅槃重生 — 从十万到千万
+
+---
+
+![README image](assets/readme.jpg)
