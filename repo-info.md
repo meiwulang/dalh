@@ -19,6 +19,15 @@
   - article-4-过前高回调形态.md
   - article-5-龙头战法框架.md
 
+### 3. 凤凰涅槃（涅槃重升）- 2026-06-23 新增
+- skills/fenghuang-niepan-trading/SKILL.md
+- articles/fenghuang-niepan/ (4篇原始文章)
+  - article-1-核心语录.md
+  - article-2-树干树枝心法.md
+  - article-3-实盘复盘模板.md
+  - article-4-树干树枝悟道.md
+
 ## 更新记录
 
+- 2026-06-23: 新增凤凰涅槃（涅槃重升）完整交易体系（4篇源文章 + SKILL.md + 更新README）
 - 2026-06-18: 新增陈小群完整交易体系（5篇源文章 + SKILL.md + 更新README）
