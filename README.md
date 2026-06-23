@@ -8,17 +8,36 @@
 
 ```
 dalh/
-├── README.md                  # 本文件
-├── repo-info.md               # 仓库元信息与更新记录
-├── assets/                    # 资源文件
-├── skills/                    # 游资交易技能（可被 AI Agent 直接调用）
-│   ├── kobe-trading/           # 92科比 — 情绪周期与龙头战法
-│   ├── chen-xiaoqun-trading/   # 陈小群 — 主线龙头与反核战法
-│   └── fenghuang-niepan-trading/ # 凤凰涅槃 — 六大情绪量化与树干树枝体系
-└── articles/                  # 原始文章资料
-    ├── kobe/                  # 92科比 相关文章（4篇）
-    ├── chen-xiaoqun/          # 陈小群 相关文章（5篇）
-    └── fenghuang-niepan/      # 凤凰涅槃 相关文章（4篇）
+├── README.md                        # 本文件
+├── repo-info.md                     # 仓库元信息与更新记录
+├── assets/                          # 资源文件
+│   └── readme.jpg
+├── skills/                          # 游资交易技能（可被 AI Agent 直接调用）
+│   ├── kobe-trading/                # 92科比交易心法
+│   │   └── SKILL.md
+│   ├── chen-xiaoqun-trading/        # 陈小群完整交易体系
+│   │   └── SKILL.md
+│   ├── fenghuang-niepan-trading/    # 凤凰涅槃·涅槃重升短线交易体系
+│   │   └── SKILL.md
+│   └── stock-data-fetcher/          # 股票数据采集器
+│       └── SKILL.md
+└── articles/                        # 原始文章资料
+    ├── kobe/                        # 92科比 相关文章（4篇）
+    │   ├── article-1-情绪周期奠基人.md
+    │   ├── article-2-2021年4月直播详解.md
+    │   ├── article-3-大道无形无所不及.md
+    │   └── article-4-炒股心法与切换补涨.md
+    ├── chen-xiaoqun/                # 陈小群 相关文章（5篇）
+    │   ├── article-1-7天交易核心.md
+    │   ├── article-2-游资龙头战法代表人物.md
+    │   ├── article-3-八不买六不卖.md
+    │   ├── article-4-过前高回调形态.md
+    │   └── article-5-龙头战法框架.md
+    └── fenghuang-niepan/            # 凤凰涅槃 相关文章（4篇）
+        ├── article-1-核心语录.md
+        ├── article-2-树干树枝心法.md
+        ├── article-3-实盘复盘模板.md
+        └── article-4-树干树枝悟道.md
 ```
 
 ---
@@ -29,7 +48,7 @@ dalh/
 
 > 90后新生代顶级游资，从数万资金起步五年做到数亿。淘股吧第11届百万杯实盘赛半年307%收益获季军。
 
-**核心体系**：情绪周期四阶段 + 龙头·补涨·切换 + 大道无形的全能手法
+**Skill**：`kobe-trading` — 情绪周期四阶段 + 龙头·补涨·切换 + 大道无形的全能手法
 
 **四阶段模型**：
 | 阶段 | 特征 | 操作 |
@@ -44,13 +63,13 @@ dalh/
 - 短线本质 = 人气带来的流动性溢价
 - 退潮期管住手，宁可错过不可做错
 
-📖 `articles/kobe/` · `skills/kobe-trading/SKILL.md`
+📖 `articles/kobe/`（4篇） · `skills/kobe-trading/SKILL.md`
 
 ### 2. 陈小群（Chen Xiaoqun）
 
 > 95后新生代顶流游资，30万起步7年做到10亿，2022年一年32倍封神。常用席位：大连黄河路/大连金马路。
 
-**核心体系**：情绪周期四阶段 + 主线龙头战法 + 弱转强/反核/首阴反包 + 铁血风控
+**Skill**：`chen-xiaoqun-trading` — 主线龙头战法 + 弱转强/反核/首阴反包 + 铁血风控 + 八不买六不卖
 
 **情绪四阶段仓位模型**：
 | 阶段 | 特征 | 仓位 |
@@ -64,13 +83,13 @@ dalh/
 
 **核心铁律**：只做主线只做总龙 · 买在分歧卖在一致 · 单笔>5%止损 · 有龙做龙无龙空仓
 
-📖 `articles/chen-xiaoqun/` · `skills/chen-xiaoqun-trading/SKILL.md`
+📖 `articles/chen-xiaoqun/`（5篇） · `skills/chen-xiaoqun-trading/SKILL.md`
 
 ### 3. 凤凰涅槃·涅槃重升
 
 > 4年100万到1亿封神，淘股吧新时代赵老哥，情绪量化第一人，树干树枝体系创始人。
 
-**核心体系**：六大情绪变量量化 + 树干树枝系统 + 情绪周期五阶段 + 确定性双核（打板+做核心）+ 铁血风控
+**Skill**：`fenghuang-niepan-trading` — 六大情绪变量量化 + 树干树枝系统 + 情绪周期五阶段 + 确定性双核（打板+做核心）+ 25条悟道心法
 
 **六大情绪变量**：
 | 变量 | 核心指标 |
@@ -92,12 +111,22 @@ dalh/
 | 退潮 | 连板压缩、龙头炸板无回封、跌停激增 | 空仓 |
 
 **两种触发模式**：
-- **凤凰涅槃买什么** → 采集数据 → 量化情绪 → 输出标的+仓位+买卖点
-- **凤凰涅槃复盘** → 同上分析 → 额外输出操盘反思+纪律检查
+- **凤凰涅槃买什么** → 自动采集近3天+今日数据 → 量化六大情绪 → 判断周期阶段 → 筛选标的 → 输出：股票+仓位+买卖点+止损
+- **凤凰涅槃复盘** → 同上分析 → 额外输出：操盘反思+纪律检查+经验提炼+最易亏钱6条排查
 
 **25条悟道心法核心**：逆情绪必遭反噬 · 空仓是最高境界 · 情绪冰点买最强波动 · 买在分歧转折点 · 错误交易第二个竞价割
 
-📖 `articles/fenghuang-niepan/` · `skills/fenghuang-niepan-trading/SKILL.md`
+📖 `articles/fenghuang-niepan/`（4篇） · `skills/fenghuang-niepan-trading/SKILL.md`
+
+---
+
+## 🔧 工具类 Skill
+
+### stock-data-fetcher
+
+> 股票行情数据采集器，为交易体系skill提供数据输入。
+
+采集内容：大盘指数、全市场涨跌统计、涨停/跌停/炸板数据、板块排行、个股详情、昨日涨停今日溢价等。
 
 ---
 
