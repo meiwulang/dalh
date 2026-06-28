@@ -27,7 +27,19 @@
   - article-3-实盘复盘模板.md
   - article-4-树干树枝悟道.md
 
+### 4. 橘子洲炒家实战（小橘）- 2026-06-26 新增
+- skills/juzizhou-trading/SKILL.md
+- articles/juzizhou/ (7篇原始文章)
+  - article-1-市场六维分析框架.md
+  - article-2-构建交易思维系统.md
+  - article-3-信号流心性降噪.md
+  - article-4-管住手与边界法则.md
+  - article-5-交易境界与如如不动.md
+  - article-6-数据支撑体系.md
+  - article-7-第十讲买点之法.md
+
 ## 更新记录
 
+- 2026-06-28: 新增橘子洲（小橘）信号流交易体系 + README更新
 - 2026-06-23: 新增凤凰涅槃（涅槃重升）完整交易体系（4篇源文章 + SKILL.md + 更新README）
 - 2026-06-18: 新增陈小群完整交易体系（5篇源文章 + SKILL.md + 更新README）
